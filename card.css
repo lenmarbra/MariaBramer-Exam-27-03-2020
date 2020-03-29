@@ -20,7 +20,6 @@ background-color: #fff;
 border-radius: 10px;
 padding: 1.5em 1.5em 3em;
 margin: 2em 1em;
-z-index: -1;
 }
 
 .bg-article{
@@ -55,7 +54,7 @@ top: 80px;
 
 button {
   position: absolute;
-  left: 3em;
+  left: 40px;
   bottom: 2.5em;
   height: 5em;
   width: 20em;

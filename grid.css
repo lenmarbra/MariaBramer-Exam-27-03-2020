@@ -4,41 +4,48 @@
  }
 
 body {
-  /* width: 100vh; */
   display: flex;
-  justify-content: left;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
 }
+
+
 /* 
 .nolist {
   list-style: 0;
 } */
 
+.container {
+  max-width: 1240px;
+  height: 500px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 .box{
-  width: 225px;
-  height: 225px;
+  width: 240px;
+  height: 240px;
   display: flex;
   flex-wrap: wrap;
-  margin: 1em 1em;
-  border: 3px gray;
+  margin: 15px;
   }
 
 .orange {
-background-color: #ff5e43;
+background-image: url("images/red_machine.png");
 }
 
-.boxWhite{
-background-color: white;
+.white{
+  background-image: url("images/white_cup.png");
 }
 
-.boxBlue {
-background-color: #dfecf3;
+.blue {
+  background-image: url("images/blue_pot.png");
 }
 
-.boxYellow {
-background-color: #fcf9dd;
+.yellow {
+  background-image: url("images/yellow_expresso.png");
 }
 
 
