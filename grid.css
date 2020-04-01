@@ -15,18 +15,17 @@ body {
 } */
 
 .container {
-  max-width: 1240px;
-  height: 500px;
+  max-width: 1750px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 
 .box{
-  width: 240px;
-  height: 240px;
+  width: 280px;
+  height: 280px;
   display: flex;
   flex-wrap: wrap;
   margin: 15px;
@@ -48,4 +47,17 @@ background-image: url("images/red_machine.png");
   background-image: url("images/yellow_expresso.png");
 }
 
-
+@media (max-width: 750px){
+  .orange{
+    order: 0;
+  }
+  .white{
+    order: 1;
+  }
+  .blue{
+    order: 2;
+  }
+  .yellow{
+    order: 3;
+  }
+}
