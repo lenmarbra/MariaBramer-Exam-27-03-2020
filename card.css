@@ -64,6 +64,10 @@ button {
   font-size: 50;
 }
 
+.button:hover {
+  background-color: #000000;
+}
+
 .center {
   position: flex;
   justify-content: center;
